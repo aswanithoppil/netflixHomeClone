@@ -1,0 +1,162 @@
+body{
+  background-color: rgb(3, 2, 2);
+}
+#imgHome {
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.5);
+}
+.Footer-Part>div > p, .Footer-Part>div > a{
+    columns: white;
+}
+
+.headerPartContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#headerInputGroup{
+  margin-top: 20px; 
+  max-width: 500px;
+}
+.idCard{
+  background-color: rgb(73, 14, 26);
+   color: white; 
+   border-color: antiquewhite;
+    min-height: 12rem;
+     display: flex;
+      flex-direction: column;
+       justify-content: center;
+}
+.faqcard{
+  width: 100em;
+  padding: 10px;
+}
+.txtLogo {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(237, 35, 76);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.ddSelectLang {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
+
+.btnSignIn {
+  background-color: rgb(237, 35, 76);
+  color: white;
+  background-color: rgb(237, 35, 76);
+}
+
+.txtHeader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btnGetStarted {
+  color: white;
+  background-color: rgb(237, 35, 76);
+  margin-top: 1em;
+}
+
+/* .txtEmail {
+  width: 50rem; */
+/* }# sourceMappingURL=styles.css.map */
+.bendLine{
+   width: 700px;
+        height: 70px;
+        border: solid 5px #d92a85;
+        border-color: #d92a85 transparent transparent transparent;
+        border-radius: 160%/140px 140px 0 0;
+}
+div.scrollMenu {
+            background-color: #333;
+            position: relative;
+            /* left: 35px; */
+            width: 100em;
+            height: 190px;
+            margin: 10px;
+            padding-left: 0px;
+            padding-right: 0px;
+
+            overflow-x: auto;
+            overflow-y: hidden;
+            white-space: nowrap;
+            position: relative;
+            scrollbar-width: none;
+            /* Firefox */
+            /* background-color: rgb(237, 35, 76); */
+            background-color: rgb(3, 2, 2);
+        }
+
+
+        div.scrollMenu::-webkit-scrollbar {
+            display: none;
+        }
+
+        div.scrollMenu div {
+            display: grid;
+            grid-template-columns: 5em 5em 5em 5em;
+            grid-template-rows: 5em;
+            color: white;
+            text-align: left;
+            padding: 14px;
+            text-decoration: none;
+        }
+
+        div.scrollMenu .card {
+            display: inline-block;
+            vertical-align: middle;
+
+            border-right-width: 0px;
+            border-left-width: 0px;
+            border-bottom-width: 0px;
+            border-top-width: 0px;
+            padding-right: 5px;
+            padding-left: 5px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+
+        }
+        div.scrollMenu .card > img{
+          width:100%;
+           height:80px;
+
+
+        }
+        div.scrollMenu .card .card-body {
+            height: 100px;
+            background: #222;
+            color: #fff;
+            padding: 6px;
+        }
+
+        div.scrollMenu .card .card-title {
+            font-size: 0.85em;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        div.scrollMenu .card .card-subtitle {
+            font-size: 0.75em;
+        }
+
+        div.scrollMenu .card .card-text {
+            font-size: 0.75em;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .ddLangFooter{
+          background-color: black;
+           color: #fff;
+        }

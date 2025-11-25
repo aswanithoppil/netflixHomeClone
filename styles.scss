@@ -1,0 +1,41 @@
+$basicButtonColor:rgb(237, 35, 76);
+$backgroundcolor:#432e2e;
+body{
+    background-color:$backgroundcolor!important;
+}
+p,a{
+    columns: white;
+}
+#imgHome{
+    width: 100%;
+    height: 100%;
+   filter: brightness(0.5);
+}
+.headerPartContainer{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.txtLogo{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+    color:$basicButtonColor;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ddSelectLang{
+    position: absolute;
+    top:10px;
+    right: 40px;
+}
+
+.btnSignIn{
+    background-color: $basicButtonColor;
+    color: white;
+    // background-color: $basicButtonColor;
+}
+
+
+ 
